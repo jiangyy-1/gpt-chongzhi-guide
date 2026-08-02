@@ -92,6 +92,8 @@
 **充值方式与避坑：**
 
 - [国内 GPT 代充平台怎么选：渠道对比与避坑指南](https://gptpro20x.com/blog/guonei-gpt-daichong/)
+- [ChatGPT Plus 支付宝/微信付款教程](https://gptpro20x.com/blog/chatgpt-plus-zhifubao/)
+- [ChatGPT Team 企业对公开通与开票流程](https://gptpro20x.com/blog/chatgpt-team-duigong/)
 - [GPT 充值全攻略：套餐体系与充值方式](https://gptpro20x.com/blog/gpt-topup-guide/)
 - [ChatGPT Plus 国内自助充值教程](https://gptpro5x.com/guides/chatgpt-plus-self-recharge)
 - [Grok 国内充值教程](https://gptpro5x.com/guides/grok-recharge-china)
