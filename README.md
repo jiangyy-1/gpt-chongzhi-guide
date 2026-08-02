@@ -82,20 +82,29 @@
 正规代充是直充你本人账号，聊天记录和数据完全私有。凡是"发你账号密码"的都不是代充。
 
 **Q: 企业能报销吗？**
-选择支持开发票、对公转账的平台即可，例如 [gptpro20x.com](https://gptpro20x.com/) 支持发票与对公采购。
+选择支持开发票、对公转账的平台即可，例如 [gptpro20x.com](https://gptpro20x.com/)、[gptpro5x.com](https://gptpro5x.com/) 均支持发票与对公采购。
 
 **Q: 没有 X（推特）账号能用 Grok 吗？**
 可以，grok.com 支持邮箱或 Google 账号直接注册。
 
 ## 延伸阅读
 
+**充值方式与避坑：**
+
 - [国内 GPT 代充平台怎么选：渠道对比与避坑指南](https://gptpro20x.com/blog/guonei-gpt-daichong/)
 - [GPT 充值全攻略：套餐体系与充值方式](https://gptpro20x.com/blog/gpt-topup-guide/)
-- [SuperGrok 充值指南：三种开通方式](https://gptpro20x.com/blog/supergrok-chongzhi/)
+- [ChatGPT Plus 国内自助充值教程](https://gptpro5x.com/guides/chatgpt-plus-self-recharge)
+- [Grok 国内充值教程](https://gptpro5x.com/guides/grok-recharge-china)
+
+**选购与对比：**
+
 - [ChatGPT Pro 5×/20× 选购攻略](https://gptpro20x.com/blog/gpt-pro-guide/)
+- [SuperGrok 充值指南：三种开通方式](https://gptpro20x.com/blog/supergrok-chongzhi/)
 - [四大 AI 模型对比：该订阅哪家](https://gptpro20x.com/blog/model-compare/)
+- [Grok vs ChatGPT 对比](https://gptpro5x.com/compare/grok-vs-chatgpt)
+- [Grok vs Claude 对比](https://gptpro5x.com/compare/grok-vs-claude)
 
 ---
 
 📝 本仓库内容持续更新，如有错漏欢迎提 Issue。
-🔗 更多攻略：[gptpro20x.com 攻略中心](https://gptpro20x.com/blog/)
+🔗 更多攻略：[gptpro20x.com 攻略中心](https://gptpro20x.com/blog/) · [gptpro5x.com 教程中心](https://gptpro5x.com/tutorials)
