@@ -4,6 +4,12 @@
 >
 > 📌 持续更新中，欢迎 Star / Watch 获取更新。
 
+## 📰 最新更新
+
+- 2026-08-03 [ChatGPT Plus 支付宝/微信怎么充值？2026 国内付款教程](https://gptpro20x.com/blog/chatgpt-plus-zhifubao/)
+- 2026-08-03 [ChatGPT Team 企业怎么开通？对公转账与开票流程（2026）](https://gptpro20x.com/blog/chatgpt-team-duigong/)
+- 2026-08-03 [SuperGrok 充值指南：2026 国内开通 Grok 会员的三种方式](https://gptpro20x.com/blog/supergrok-chongzhi/)
+
 ## 目录
 
 - [为什么官网直接付款总是失败](#为什么官网直接付款总是失败)
