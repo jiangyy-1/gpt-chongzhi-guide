@@ -6,6 +6,8 @@
 
 ## 📰 最新更新
 
+- 2026-08-09 [拼车合租 ChatGPT Plus 靠谱吗？三个你没想到的坑](https://gptpro20x.com/blog/pinche-hezu-chatgpt/)
+- 2026-08-09 [ChatGPT 成品号能买吗？买现成账号的三大风险](https://gptpro20x.com/blog/chatgpt-chengpin-hao/)
 - 2026-08-08 [虚拟卡充 ChatGPT Plus 为什么老扣款失败？2026 避坑](https://gptpro20x.com/blog/xuni-ka-gpt/)
 - 2026-08-08 [Codex 怎么充值？开发者的 ChatGPT 编程额度开通指南](https://gptpro20x.com/blog/codex-chongzhi/)
 - 2026-08-07 [GPT 充值多少钱？2026 ChatGPT 各档位价格全盘点](https://gptpro20x.com/blog/gpt-chongzhi-duoshaoqian/)
