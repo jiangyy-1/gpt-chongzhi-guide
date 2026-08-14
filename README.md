@@ -6,6 +6,8 @@
 
 ## 📰 最新更新
 
+- 2026-08-14 [ChatGPT Plus 升级 Pro 怎么操作？差价、时机与国内开通方案（2026）](https://gptpro20x.com/blog/plus-shengji-pro/)
+- 2026-08-14 [苹果礼品卡能充 ChatGPT Plus 吗？实测限制与替代方案（2026）](https://gptpro20x.com/blog/lipinka-chatgpt/)
 - 2026-08-09 [拼车合租 ChatGPT Plus 靠谱吗？三个你没想到的坑](https://gptpro20x.com/blog/pinche-hezu-chatgpt/)
 - 2026-08-09 [ChatGPT 成品号能买吗？买现成账号的三大风险](https://gptpro20x.com/blog/chatgpt-chengpin-hao/)
 - 2026-08-08 [虚拟卡充 ChatGPT Plus 为什么老扣款失败？2026 避坑](https://gptpro20x.com/blog/xuni-ka-gpt/)
@@ -14,7 +16,6 @@
 - 2026-08-07 [GPT 会员月付还是年付？一篇讲清怎么选不踩坑](https://gptpro20x.com/blog/gpt-yuefu-nianfu/)
 - 2026-08-03 [ChatGPT Plus 支付宝/微信怎么充值？2026 国内付款教程](https://gptpro20x.com/blog/chatgpt-plus-zhifubao/)
 - 2026-08-03 [ChatGPT Team 企业怎么开通？对公转账与开票流程（2026）](https://gptpro20x.com/blog/chatgpt-team-duigong/)
-- 2026-08-03 [SuperGrok 充值指南：2026 国内开通 Grok 会员的三种方式](https://gptpro20x.com/blog/supergrok-chongzhi/)
 
 ## 目录
 
