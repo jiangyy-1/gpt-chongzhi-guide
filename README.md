@@ -6,16 +6,16 @@
 
 ## 📰 最新更新
 
+- 2026-08-20 [ChatGPT Pro 充值的 Token 授权安全吗？原理、边界与撤销方法（2026）](https://gptpro20x.com/blog/token-shouquan-anquan/)
+- 2026-08-20 [ChatGPT 各档位 Sora 额度对比：谁能生成多少、规格差在哪（2026）](https://gptpro20x.com/blog/chatgpt-sora-edu/)
+- 2026-08-20 [ChatGPT Deep Research 额度指南：各套餐次数、重置规则与省用技巧（2026）](https://gptpro20x.com/blog/chatgpt-deep-research/)
+- 2026-08-20 [ChatGPT Team 和 Plus 区别：改名 Business 后个人到底该选哪个（2026）](https://gptpro20x.com/blog/chatgpt-team-vs-plus/)
+- 2026-08-20 [ChatGPT 各档位额度对照表：免费/Plus/Pro 到底能用多少（2026）](https://gptpro20x.com/blog/gpt-edu-duibi/)
+- 2026-08-20 [ChatGPT 作图全攻略：提示词、改图不跑偏与次数限制（2026）](https://gptpro20x.com/blog/chatgpt-zuotu/)
+- 2026-08-20 [Codex 点数怎么算：500 credits 值多少 token、够跑多少任务（2026）](https://gptpro20x.com/blog/codex-dianshu/)
+- 2026-08-20 [Codex 上手第一周：从装 CLI 到跑顺任务的路线图（2026）](https://gptpro20x.com/blog/codex-shangshou/)
 - 2026-08-16 [ChatGPT 封号了怎么办？五种原因、申诉模板与自救三步（2026）](https://gptpro20x.com/blog/chatgpt-fenghao-zijiu/)
 - 2026-08-16 [GPT 额度用完了怎么办？多久恢复、怎么省、什么时候该升档（2026）](https://gptpro20x.com/blog/gpt-edu-yongwan/)
-- 2026-08-16 [ChatGPT Plus 续费失败掉档怎么办？三种续费方式与自查步骤（2026）](https://gptpro20x.com/blog/chatgpt-xufei-diaodang/)
-- 2026-08-16 [ChatGPT 有学生优惠吗？2026 国内学生最省的三个方案](https://gptpro20x.com/blog/chatgpt-xuesheng-youhui/)
-- 2026-08-14 [ChatGPT Plus 升级 Pro 怎么操作？差价、时机与国内开通方案（2026）](https://gptpro20x.com/blog/plus-shengji-pro/)
-- 2026-08-14 [苹果礼品卡能充 ChatGPT Plus 吗？实测限制与替代方案（2026）](https://gptpro20x.com/blog/lipinka-chatgpt/)
-- 2026-08-09 [拼车合租 ChatGPT Plus 靠谱吗？三个你没想到的坑](https://gptpro20x.com/blog/pinche-hezu-chatgpt/)
-- 2026-08-09 [ChatGPT 成品号能买吗？买现成账号的三大风险](https://gptpro20x.com/blog/chatgpt-chengpin-hao/)
-- 2026-08-08 [虚拟卡充 ChatGPT Plus 为什么老扣款失败？2026 避坑](https://gptpro20x.com/blog/xuni-ka-gpt/)
-- 2026-08-08 [Codex 怎么充值？开发者的 ChatGPT 编程额度开通指南](https://gptpro20x.com/blog/codex-chongzhi/)
 
 ## 目录
 
