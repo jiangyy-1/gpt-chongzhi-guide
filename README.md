@@ -6,6 +6,9 @@
 
 ## 📰 最新更新
 
+- 2026-08-23 [GPT-5.6 Sol/Terra/Luna 怎么选：三档区别、订阅对应与省额度选法（2026）](https://gptpro20x.com/blog/sol-terra-luna/)
+- 2026-08-23 [Gemini充值/Gemini代充国内指南：Pro 与 Ultra 开通、价格与避坑（2026）](https://gptpro20x.com/blog/gemini-chongzhi/)
+- 2026-08-23 [用 ChatGPT 做表格：从乱数据到 Excel 的三步工作流（2026）](https://gptpro20x.com/blog/chatgpt-biaoge/)
 - 2026-08-20 [ChatGPT Pro 充值的 Token 授权安全吗？原理、边界与撤销方法（2026）](https://gptpro20x.com/blog/token-shouquan-anquan/)
 - 2026-08-20 [ChatGPT 各档位 Sora 额度对比：谁能生成多少、规格差在哪（2026）](https://gptpro20x.com/blog/chatgpt-sora-edu/)
 - 2026-08-20 [ChatGPT Deep Research 额度指南：各套餐次数、重置规则与省用技巧（2026）](https://gptpro20x.com/blog/chatgpt-deep-research/)
@@ -13,14 +16,21 @@
 - 2026-08-20 [ChatGPT 各档位额度对照表：免费/Plus/Pro 到底能用多少（2026）](https://gptpro20x.com/blog/gpt-edu-duibi/)
 - 2026-08-20 [ChatGPT 作图全攻略：提示词、改图不跑偏与次数限制（2026）](https://gptpro20x.com/blog/chatgpt-zuotu/)
 - 2026-08-20 [Codex 点数怎么算：500 credits 值多少 token、够跑多少任务（2026）](https://gptpro20x.com/blog/codex-dianshu/)
-- 2026-08-20 [Codex 上手第一周：从装 CLI 到跑顺任务的路线图（2026）](https://gptpro20x.com/blog/codex-shangshou/)
-- 2026-08-16 [ChatGPT 封号了怎么办？五种原因、申诉模板与自救三步（2026）](https://gptpro20x.com/blog/chatgpt-fenghao-zijiu/)
-- 2026-08-16 [GPT 额度用完了怎么办？多久恢复、怎么省、什么时候该升档（2026）](https://gptpro20x.com/blog/gpt-edu-yongwan/)
+
+## 🔥 热门指南
+
+- [GPT代充/GPT充值完整指南：支付宝微信开通全流程（2026 亲测）](https://gptpro20x.com/blog/gpt-daichong-quanzhinan/)
+- [GPT充值多少钱：ChatGPT 全档位价格表（实时更新）](https://gptpro20x.com/blog/gpt-chongzhi-duoshaoqian/)
+- [GPTPro充值/GPTPro代充完整教程：Pro 5x/20x 国内开通](https://gptpro20x.com/blog/gptpro-chongzhi/)
+- [GPTPro代充指南：Pro 5X/20X 档位选择与避坑](https://gptpro5x.com/gptpro-daichong)
+- [ChatGPT 各档位额度对照表：免费/Plus/Pro 能用多少](https://gptpro20x.com/blog/gpt-edu-duibi/)
+- [GPT充值价格总览（GO/Plus/Pro 实时人民币价）](https://gptpro20x.com/chatgpt/)
 
 ## 目录
 
 - [为什么官网直接付款总是失败](#为什么官网直接付款总是失败)
 - [四种充值方式对比](#四种充值方式对比)
+- [GPTPro 代充 / GPTPro 充值](#gptpro-代充--gptpro-充值)
 - [各平台会员档位速查（2026）](#各平台会员档位速查2026)
 - [如何判断代充平台是否靠谱](#如何判断代充平台是否靠谱)
 - [常见问题 FAQ](#常见问题-faq)
@@ -44,6 +54,16 @@
 | 正规代充平台 | 官方价+少量服务费 | 分钟级自动发货 | 低：直充自己账号 | 大多数普通用户和企业 |
 
 > 结论：没有现成海外卡的话，正规代充平台是成本、速度、风险三者平衡最好的选择，关键是会分辨"正规"。
+
+## GPTPro 代充 / GPTPro 充值
+
+Pro 档（5X / 20X）的开通和 Plus 不同：需要临时凭证授权操作，档位怎么选、哪一步安全、哪一步有坑，单独整理了专页：
+
+- [GPTPro充值](https://gptpro5x.com/) —— Pro 5X/20X 实时人民币价格与下单
+- [GPTPro代充完整指南](https://gptpro5x.com/gptpro-daichong) —— 档位对比、四步流程、Token 授权安全边界
+- [GPTPro代充避坑教程](https://gptpro20x.com/blog/gptpro-chongzhi/) —— 平台怎么筛、验证到账、售后细节
+
+一句话结论：Pro 5X 和 20X 功能完全一样只差额度倍数，从 Plus 升上来先充 5X，撞顶再换 20X。
 
 ## 各平台会员档位速查（2026）
 
