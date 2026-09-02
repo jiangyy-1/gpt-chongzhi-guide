@@ -6,16 +6,16 @@
 
 ## 📰 最新更新
 
+- 2026-09-02 [ChatGPT 微信支付充值教程：四步流程与微信特有的三个坑（2026）](https://gptpro20x.com/blog/weixin-chongzhi/)
+- 2026-09-02 [不会编程也能用 ChatGPT 写小工具：2026 零环境三层玩法](https://gptpro20x.com/blog/daima-rumen/)
+- 2026-09-02 [ChatGPT Pro 20X 值得吗：三问自测、回本算术与升级时机（2026）](https://gptpro20x.com/blog/pro20x-zhinan/)
+- 2026-09-02 [用 ChatGPT 做 PPT：讲稿先行三步法，直接生成 pptx（2026）](https://gptpro20x.com/blog/chatgpt-ppt/)
+- 2026-09-02 [用 ChatGPT 改简历、备面试：JD 反推三步工作流（2026）](https://gptpro20x.com/blog/jianli-qiuzhi/)
 - 2026-08-30 [用 ChatGPT 做 Excel：函数、清洗、透视三类活的正确派法（2026）](https://gptpro20x.com/blog/excel-shuju/)
 - 2026-08-30 [ChatGPT 学习提效：备考、记笔记、刷题的三套工作流（2026）](https://gptpro20x.com/blog/chatgpt-xuexi/)
 - 2026-08-30 [ChatGPT 翻译的正确用法：合同、邮件、论文三场景工作流（2026）](https://gptpro20x.com/blog/chatgpt-fanyi/)
 - 2026-08-26 [GPT代充退款政策实话：什么情况能退、怎么退、跑路了怎么办（2026）](https://gptpro20x.com/blog/daichong-tuikuan/)
 - 2026-08-26 [ChatGPT Pro 才解锁的 6 件事：别花了钱只当大号 Plus（2026）](https://gptpro20x.com/blog/chatgpt-pro-yongfa/)
-- 2026-08-26 [GPTPlus代充完整指南：一号一码怎么验、黑卡怎么防（2026）](https://gptpro20x.com/blog/gptplus-daichong/)
-- 2026-08-26 [ChatGPT 办公文书提效：周报、方案、邮件的 4 模板工作流（2026）](https://gptpro20x.com/blog/bangong-wenshu/)
-- 2026-08-26 [GPT充值能开发票吗？ChatGPT Plus/Pro 报销全流程（2026）](https://gptpro20x.com/blog/chongzhi-fapiao/)
-- 2026-08-23 [GPT-5.6 Sol/Terra/Luna 怎么选：三档区别、订阅对应与省额度选法（2026）](https://gptpro20x.com/blog/sol-terra-luna/)
-- 2026-08-23 [Gemini充值/Gemini代充国内指南：Pro 与 Ultra 开通、价格与避坑（2026）](https://gptpro20x.com/blog/gemini-chongzhi/)
 
 ## 🔥 热门指南
 
