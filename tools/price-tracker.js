@@ -23,10 +23,10 @@ const SOURCES = [
 
 // 档位 → 在页面文本里的识别模式（按出现顺序取第一个紧随其后的人民币价格）
 const TIERS = [
-  { key: 'go', label: 'GO', re: /\bGO\b/i },
-  { key: 'plus', label: 'Plus', re: /Plus/i },
-  { key: 'pro5x', label: 'Pro 5X', re: /Pro\s*5\s*[xX×]/ },
-  { key: 'pro20x', label: 'Pro 20X', re: /Pro\s*20\s*[xX×]/ },
+  { key: 'go', label: 'GO', re: /ChatGPT\s*GO\b|\bGO\s*(档|套餐|会员)/g },
+  { key: 'plus', label: 'Plus', re: /ChatGPT\s*Plus|\bPlus\b(?!\s*\/)/g },
+  { key: 'pro5x', label: 'Pro 5X', re: /Pro\s*5\s*[xX×]/g },
+  { key: 'pro20x', label: 'Pro 20X', re: /Pro\s*20\s*[xX×]/g },
 ];
 const PRICE_RE = /[¥￥]\s?(\d{2,4})(?:\.\d+)?/;
 
@@ -59,12 +59,17 @@ function stripHtml(html) {
 function extractPrices(text) {
   const out = {};
   for (const tier of TIERS) {
-    const m = tier.re.exec(text);
-    if (!m) { out[tier.key] = null; continue; }
-    // 档位名后 60 个字符内找价格，避免串到别的档位
-    const window = text.slice(m.index, m.index + 60);
-    const p = PRICE_RE.exec(window);
-    out[tier.key] = p ? Number(p[1]) : null;
+    out[tier.key] = null;
+    tier.re.lastIndex = 0;
+    let m;
+    // 遍历该档位名的每一次出现，取第一个在其后 45 字符内紧跟价格的；
+    // 窗口内若先出现了别的档位名则跳过，避免串价
+    while ((m = tier.re.exec(text))) {
+      const window = text.slice(m.index + m[0].length, m.index + m[0].length + 45);
+      const other = TIERS.some((t) => t !== tier && new RegExp(t.re.source).test(window.split(/[¥￥]/)[0]));
+      const p = PRICE_RE.exec(window);
+      if (p && !other) { out[tier.key] = Number(p[1]); break; }
+    }
   }
   return out;
 }
