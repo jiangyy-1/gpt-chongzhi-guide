@@ -1,0 +1,53 @@
+{
+  "collectedAt": "2026-09-12",
+  "platforms": [
+    {
+      "name": "gptpro20x.com",
+      "source": "https://gptpro20x.com/chatgpt/",
+      "go": 79,
+      "plus": 79,
+      "pro5x": 818,
+      "pro20x": 1480
+    },
+    {
+      "name": "gptpro5x.com",
+      "source": "https://gptpro5x.com/",
+      "go": null,
+      "plus": 168,
+      "pro5x": 818,
+      "pro20x": 1480
+    },
+    {
+      "name": "gptcz.pro",
+      "source": "https://gptcz.pro/plus",
+      "go": null,
+      "plus": null,
+      "pro5x": null,
+      "pro20x": null
+    },
+    {
+      "name": "aichongzhi.org",
+      "source": "https://aichongzhi.org/",
+      "go": null,
+      "plus": null,
+      "pro5x": 880,
+      "pro20x": 1680
+    },
+    {
+      "name": "getgpt.pro",
+      "source": "https://getgpt.pro/plus-price",
+      "go": null,
+      "plus": null,
+      "pro5x": null,
+      "pro20x": null
+    },
+    {
+      "name": "payforchat.com",
+      "source": "https://www.payforchat.com/",
+      "go": null,
+      "plus": null,
+      "pro5x": 899,
+      "pro20x": 1620
+    }
+  ]
+}
