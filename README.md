@@ -23,6 +23,7 @@
 - [GPT充值多少钱：ChatGPT 全档位价格表（实时更新）](https://gptpro20x.com/blog/gpt-chongzhi-duoshaoqian/)
 - [GPTPro充值/GPTPro代充完整教程：Pro 5x/20x 国内开通](https://gptpro20x.com/blog/gptpro-chongzhi/)
 - [GPTPro代充指南：Pro 5X/20X 档位选择与避坑](https://gptpro5x.com/gptpro-daichong)
+- [GPTPro20x代充 / GPTPro20x充值：Pro 20X 暂停新订阅期间怎么开通（2026-09 通知）](https://gptpro20x.com/blog/chatgpt-pro-20x-zanting/)
 - [ChatGPT 各档位额度对照表：免费/Plus/Pro 能用多少](https://gptpro20x.com/blog/gpt-edu-duibi/)
 - [GPT充值价格总览（GO/Plus/Pro 实时人民币价）](https://gptpro20x.com/chatgpt/)
 
