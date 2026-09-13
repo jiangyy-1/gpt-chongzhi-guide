@@ -6,6 +6,8 @@
 
 ## 📰 最新更新
 
+- 2026-09-13 [ChatGPT Pro 20X 暂停新订阅：已订阅别取消，新用户走特殊渠道或先上 Pro 5X（2026）](https://gptpro20x.com/blog/chatgpt-pro-20x-zanting/)
+- 2026-09-13 [ChatGPT 记忆功能怎么用：两层记忆、三个边界与什么时候该关（2026）](https://gptpro20x.com/blog/chatgpt-memory/)
 - 2026-09-09 [用 ChatGPT 做旅行规划：反问式三步法与核对纪律（2026）](https://gptpro20x.com/blog/chatgpt-lvxing/)
 - 2026-09-09 [用 ChatGPT 问健康的正确姿势：能干的三件事、不能干的三件事（2026）](https://gptpro20x.com/blog/chatgpt-jiankang/)
 - 2026-09-09 [2026 GPT代充平台盘点：8 家价格横评与售后对照，GPTPro代充怎么选](https://gptpro20x.com/blog/daichong-pingtai-panding/)
@@ -14,8 +16,6 @@
 - 2026-09-02 [不会编程也能用 ChatGPT 写小工具：2026 零环境三层玩法](https://gptpro20x.com/blog/daima-rumen/)
 - 2026-09-02 [ChatGPT Pro 20X 值得吗：三问自测、回本算术与升级时机（2026）](https://gptpro20x.com/blog/pro20x-zhinan/)
 - 2026-09-02 [用 ChatGPT 做 PPT：讲稿先行三步法，直接生成 pptx（2026）](https://gptpro20x.com/blog/chatgpt-ppt/)
-- 2026-09-02 [用 ChatGPT 改简历、备面试：JD 反推三步工作流（2026）](https://gptpro20x.com/blog/jianli-qiuzhi/)
-- 2026-08-30 [用 ChatGPT 做 Excel：函数、清洗、透视三类活的正确派法（2026）](https://gptpro20x.com/blog/excel-shuju/)
 
 ## 🔥 热门指南
 
