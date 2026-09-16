@@ -1,8 +1,8 @@
-# 国内 GPT / Gemini / Grok 充值指南（2026 持续更新）
+# GPT充值 / GPT代充指南 2026：国内开通 ChatGPT Plus、Pro 与 Gemini、Grok 会员（支付宝微信可用）
 
-> 面向中国大陆用户的 AI 会员订阅充值指南：ChatGPT（GO / Plus / Pro / Team）、Google Gemini（AI Pro / Ultra）、Grok（SuperGrok / Heavy）、Claude（Pro / Max）。整理各种充值方式的真实成本与风险，帮你避坑。
+> 面向中国大陆用户的 **GPT充值 / GPT代充** 参考手册：ChatGPT（GO / Plus / Pro / Team）、Google Gemini（AI Pro / Ultra）、Grok（SuperGrok / Heavy）、Claude（Pro / Max）。官网为什么付不了款、四种付款路径的真实成本、Pro 5X 与 20X 怎么选、怎么判断代充平台是否靠谱，一次讲清。
 >
-> 📌 持续更新中，欢迎 Star / Watch 获取更新。
+> 📌 最近核对：2026-09-16。持续更新中，欢迎 Star / Watch 获取更新。
 
 ## 📰 最新更新
 
