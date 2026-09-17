@@ -6,16 +6,16 @@
 
 ## 📰 最新更新
 
+- 2026-09-17 [Claude代充 / Claude充值国内指南：Pro、Max 5×/20× 支付宝微信开通与档位选择（2026）](https://gptpro20x.com/blog/claude-daichong/)
+- 2026-09-17 [ChatGPT 手机 App 怎么用：国内下载、登录、网络三个坎与五个手机专属用法（2026）](https://gptpro20x.com/blog/chatgpt-shouji/)
+- 2026-09-17 [ChatGPT 语音模式怎么用：练口语、实时翻译、口述整理三个值钱场景（2026）](https://gptpro20x.com/blog/chatgpt-yuyin/)
+- 2026-09-17 [Grok代充怎么弄：SuperGrok 国内支付宝微信开通、官网入口与价格（2026）](https://gptpro20x.com/blog/grok-daichong/)
 - 2026-09-13 [ChatGPT Pro 20X 暂停新订阅：已订阅别取消，新用户走特殊渠道或先上 Pro 5X（2026）](https://gptpro20x.com/blog/chatgpt-pro-20x-zanting/)
 - 2026-09-13 [ChatGPT 记忆功能怎么用：两层记忆、三个边界与什么时候该关（2026）](https://gptpro20x.com/blog/chatgpt-memory/)
 - 2026-09-09 [用 ChatGPT 做旅行规划：反问式三步法与核对纪律（2026）](https://gptpro20x.com/blog/chatgpt-lvxing/)
 - 2026-09-09 [用 ChatGPT 问健康的正确姿势：能干的三件事、不能干的三件事（2026）](https://gptpro20x.com/blog/chatgpt-jiankang/)
 - 2026-09-09 [2026 GPT代充平台盘点：8 家价格横评与售后对照，GPTPro代充怎么选](https://gptpro20x.com/blog/daichong-pingtai-panding/)
 - 2026-09-09 [ChatGPT Projects 怎么用：与 Memory、自定义 GPT 的分工与指令写法（2026）](https://gptpro20x.com/blog/chatgpt-projects/)
-- 2026-09-02 [ChatGPT 微信支付充值教程：四步流程与微信特有的三个坑（2026）](https://gptpro20x.com/blog/weixin-chongzhi/)
-- 2026-09-02 [不会编程也能用 ChatGPT 写小工具：2026 零环境三层玩法](https://gptpro20x.com/blog/daima-rumen/)
-- 2026-09-02 [ChatGPT Pro 20X 值得吗：三问自测、回本算术与升级时机（2026）](https://gptpro20x.com/blog/pro20x-zhinan/)
-- 2026-09-02 [用 ChatGPT 做 PPT：讲稿先行三步法，直接生成 pptx（2026）](https://gptpro20x.com/blog/chatgpt-ppt/)
 
 ## 🔥 热门指南
 
