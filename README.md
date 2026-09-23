@@ -6,6 +6,8 @@
 
 ## 📰 最新更新
 
+- 2026-09-23 [GPTs 怎么用：挑现成的看三样、十分钟自己做一个、三种情况根本不用做（2026）](https://gptpro20x.com/blog/chatgpt-gpts/)
+- 2026-09-23 [ChatGPT 图片识别怎么用：截图排错、拍题讲解、图表出数据、实物翻译四个场景与三个边界（2026）](https://gptpro20x.com/blog/chatgpt-tupian/)
 - 2026-09-20 [ChatGPT Canvas 怎么用：选中哪段改哪段、代码迭代运行与三件别在画布里做的事（2026）](https://gptpro20x.com/blog/chatgpt-canvas/)
 - 2026-09-20 [ChatGPT 自定义指令怎么写：两个框分别填什么、三套模板与四个反效果写法（2026）](https://gptpro20x.com/blog/chatgpt-zidingyi/)
 - 2026-09-17 [Claude代充 / Claude充值国内指南：Pro、Max 5×/20× 支付宝微信开通与档位选择（2026）](https://gptpro20x.com/blog/claude-daichong/)
@@ -14,8 +16,6 @@
 - 2026-09-17 [Grok代充怎么弄：SuperGrok 国内支付宝微信开通、官网入口与价格（2026）](https://gptpro20x.com/blog/grok-daichong/)
 - 2026-09-13 [ChatGPT Pro 20X 暂停新订阅：已订阅别取消，新用户走特殊渠道或先上 Pro 5X（2026）](https://gptpro20x.com/blog/chatgpt-pro-20x-zanting/)
 - 2026-09-13 [ChatGPT 记忆功能怎么用：两层记忆、三个边界与什么时候该关（2026）](https://gptpro20x.com/blog/chatgpt-memory/)
-- 2026-09-09 [用 ChatGPT 做旅行规划：反问式三步法与核对纪律（2026）](https://gptpro20x.com/blog/chatgpt-lvxing/)
-- 2026-09-09 [用 ChatGPT 问健康的正确姿势：能干的三件事、不能干的三件事（2026）](https://gptpro20x.com/blog/chatgpt-jiankang/)
 
 ## 🔥 热门指南
 
