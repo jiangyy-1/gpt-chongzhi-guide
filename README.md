@@ -6,6 +6,8 @@
 
 ## 📰 最新更新
 
+- 2026-09-27 [国内怎么开通 ChatGPT Plus？2026 GPT充值教程：6 种方式对比 + 支付宝 4 步实拍](https://gptpro20x.com/blog/guonei-kaitong-chatgpt-plus/)
+- 2026-09-27 [ChatGPT 怎么读 PDF：上传限制、扫描件读不出、长文档漏读三个坑与解法（2026）](https://gptpro20x.com/blog/chatgpt-du-pdf/)
 - 2026-09-23 [GPTs 怎么用：挑现成的看三样、十分钟自己做一个、三种情况根本不用做（2026）](https://gptpro20x.com/blog/chatgpt-gpts/)
 - 2026-09-23 [ChatGPT 图片识别怎么用：截图排错、拍题讲解、图表出数据、实物翻译四个场景与三个边界（2026）](https://gptpro20x.com/blog/chatgpt-tupian/)
 - 2026-09-20 [ChatGPT Canvas 怎么用：选中哪段改哪段、代码迭代运行与三件别在画布里做的事（2026）](https://gptpro20x.com/blog/chatgpt-canvas/)
@@ -14,8 +16,6 @@
 - 2026-09-17 [ChatGPT 手机 App 怎么用：国内下载、登录、网络三个坎与五个手机专属用法（2026）](https://gptpro20x.com/blog/chatgpt-shouji/)
 - 2026-09-17 [ChatGPT 语音模式怎么用：练口语、实时翻译、口述整理三个值钱场景（2026）](https://gptpro20x.com/blog/chatgpt-yuyin/)
 - 2026-09-17 [Grok代充怎么弄：SuperGrok 国内支付宝微信开通、官网入口与价格（2026）](https://gptpro20x.com/blog/grok-daichong/)
-- 2026-09-13 [ChatGPT Pro 20X 暂停新订阅：已订阅别取消，新用户走特殊渠道或先上 Pro 5X（2026）](https://gptpro20x.com/blog/chatgpt-pro-20x-zanting/)
-- 2026-09-13 [ChatGPT 记忆功能怎么用：两层记忆、三个边界与什么时候该关（2026）](https://gptpro20x.com/blog/chatgpt-memory/)
 
 ## 🔥 热门指南
 
