@@ -6,6 +6,8 @@
 
 ## 📰 最新更新
 
+- 2026-09-30 [ChatGPT Plus 国内怎么充值、代充？2026 ChatGPT充值 / GPT代充三种类型一次讲清（支付宝微信）](https://gptpro20x.com/blog/chatgpt-chongzhi/)
+- 2026-09-30 [ChatGPT 怎么做思维导图：4 种出图方法对比、提示词模板与导入 XMind 翻车排查（2026）](https://gptpro20x.com/blog/chatgpt-siwei-daotu/)
 - 2026-09-27 [国内怎么开通 ChatGPT Plus？2026 GPT充值教程：6 种方式对比 + 支付宝 4 步实拍](https://gptpro20x.com/blog/guonei-kaitong-chatgpt-plus/)
 - 2026-09-27 [ChatGPT 怎么读 PDF：上传限制、扫描件读不出、长文档漏读三个坑与解法（2026）](https://gptpro20x.com/blog/chatgpt-du-pdf/)
 - 2026-09-23 [GPTs 怎么用：挑现成的看三样、十分钟自己做一个、三种情况根本不用做（2026）](https://gptpro20x.com/blog/chatgpt-gpts/)
@@ -14,8 +16,6 @@
 - 2026-09-20 [ChatGPT 自定义指令怎么写：两个框分别填什么、三套模板与四个反效果写法（2026）](https://gptpro20x.com/blog/chatgpt-zidingyi/)
 - 2026-09-17 [Claude代充 / Claude充值国内指南：Pro、Max 5×/20× 支付宝微信开通与档位选择（2026）](https://gptpro20x.com/blog/claude-daichong/)
 - 2026-09-17 [ChatGPT 手机 App 怎么用：国内下载、登录、网络三个坎与五个手机专属用法（2026）](https://gptpro20x.com/blog/chatgpt-shouji/)
-- 2026-09-17 [ChatGPT 语音模式怎么用：练口语、实时翻译、口述整理三个值钱场景（2026）](https://gptpro20x.com/blog/chatgpt-yuyin/)
-- 2026-09-17 [Grok代充怎么弄：SuperGrok 国内支付宝微信开通、官网入口与价格（2026）](https://gptpro20x.com/blog/grok-daichong/)
 
 ## 🔥 热门指南
 
