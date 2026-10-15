@@ -6,6 +6,7 @@
 
 ## 📰 最新更新
 
+- 2026-09-22 [GPT-6 上线后 ChatGPT 频繁报「Selected model is at capacity」？原因、时间线与申诉模板（2026）](https://gptpro20x.com/blog/selected-model-at-capacity-gpt6/)
 - 2026-09-30 [ChatGPT Plus 国内怎么充值、代充？2026 ChatGPT充值 / GPT代充三种类型一次讲清（支付宝微信）](https://gptpro20x.com/blog/chatgpt-chongzhi/)
 - 2026-09-30 [ChatGPT 怎么做思维导图：4 种出图方法对比、提示词模板与导入 XMind 翻车排查（2026）](https://gptpro20x.com/blog/chatgpt-siwei-daotu/)
 - 2026-09-27 [国内怎么开通 ChatGPT Plus？2026 GPT充值教程：6 种方式对比 + 支付宝 4 步实拍](https://gptpro20x.com/blog/guonei-kaitong-chatgpt-plus/)
@@ -15,7 +16,6 @@
 - 2026-09-20 [ChatGPT Canvas 怎么用：选中哪段改哪段、代码迭代运行与三件别在画布里做的事（2026）](https://gptpro20x.com/blog/chatgpt-canvas/)
 - 2026-09-20 [ChatGPT 自定义指令怎么写：两个框分别填什么、三套模板与四个反效果写法（2026）](https://gptpro20x.com/blog/chatgpt-zidingyi/)
 - 2026-09-17 [Claude代充 / Claude充值国内指南：Pro、Max 5×/20× 支付宝微信开通与档位选择（2026）](https://gptpro20x.com/blog/claude-daichong/)
-- 2026-09-17 [ChatGPT 手机 App 怎么用：国内下载、登录、网络三个坎与五个手机专属用法（2026）](https://gptpro20x.com/blog/chatgpt-shouji/)
 
 ## 🔥 热门指南
 
