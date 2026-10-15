@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-12",
+  "collectedAt": "2026-10-15",
   "platforms": [
     {
       "name": "gptpro20x.com",
@@ -31,13 +31,13 @@
       "go": null,
       "plus": 178,
       "pro5x": 880,
-      "pro20x": 1680
+      "pro20x": 1580
     },
     {
       "name": "getgpt.pro",
       "source": "https://getgpt.pro/plus-price",
       "go": null,
-      "plus": 179,
+      "plus": null,
       "pro5x": null,
       "pro20x": null
     },
@@ -45,7 +45,7 @@
       "name": "payforchat.com",
       "source": "https://www.payforchat.com/",
       "go": null,
-      "plus": 199,
+      "plus": 189,
       "pro5x": 899,
       "pro20x": 1620
     }
