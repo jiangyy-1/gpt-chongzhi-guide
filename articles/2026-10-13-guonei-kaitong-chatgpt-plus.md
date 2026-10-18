@@ -1,13 +1,6 @@
----
-url: https://gptpro20x.com/blog/guonei-kaitong-chatgpt-plus/
-status: published_verified_readonly
-first_published: 2026-09-25
-last_substantive_update: 2026-10-13T20:48:54.295000+08:00
-archive_verified: 2026-10-18
-archive_adaptation: absolute_links_and_live_price_reference
----
-
 # 国内怎么开通ChatGPT Plus？渠道与到账核对
+
+> 原文（价格实时更新）：https://gptpro20x.com/blog/guonei-kaitong-chatgpt-plus/
 
 ![原创示意图：付款前核对订阅渠道、账号与账单](https://gptpro20x.com/img/blog/guonei-kaitong-chatgpt-plus-20261013.png)
 
