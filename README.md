@@ -6,11 +6,11 @@
 
 ## 📰 最新更新
 
+- 2026-10-13 [国内怎么开通 ChatGPT Plus？GPT充值渠道对比与到账核对（2026）](https://gptpro20x.com/blog/guonei-kaitong-chatgpt-plus/)
 - 2026-09-30 [ChatGPT Pro 500 国内怎么充值、代充？$500 套餐值不值、和 Pro 100/200 区别（2026 GPT代充）](https://gptpro20x.com/blog/chatgpt-pro-500/)
 - 2026-09-22 [GPT-6 上线后 ChatGPT 频繁报「Selected model is at capacity」？原因、时间线与申诉模板（2026）](https://gptpro20x.com/blog/selected-model-at-capacity-gpt6/)
 - 2026-09-30 [ChatGPT Plus 国内怎么充值、代充？2026 ChatGPT充值 / GPT代充三种类型一次讲清（支付宝微信）](https://gptpro20x.com/blog/chatgpt-chongzhi/)
 - 2026-09-30 [ChatGPT 怎么做思维导图：4 种出图方法对比、提示词模板与导入 XMind 翻车排查（2026）](https://gptpro20x.com/blog/chatgpt-siwei-daotu/)
-- 2026-09-27 [国内怎么开通 ChatGPT Plus？2026 GPT充值教程：6 种方式对比 + 支付宝 4 步实拍](https://gptpro20x.com/blog/guonei-kaitong-chatgpt-plus/)
 - 2026-09-27 [ChatGPT 怎么读 PDF：上传限制、扫描件读不出、长文档漏读三个坑与解法（2026）](https://gptpro20x.com/blog/chatgpt-du-pdf/)
 - 2026-09-23 [GPTs 怎么用：挑现成的看三样、十分钟自己做一个、三种情况根本不用做（2026）](https://gptpro20x.com/blog/chatgpt-gpts/)
 - 2026-09-23 [ChatGPT 图片识别怎么用：截图排错、拍题讲解、图表出数据、实物翻译四个场景与三个边界（2026）](https://gptpro20x.com/blog/chatgpt-tupian/)
