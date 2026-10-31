@@ -22,7 +22,7 @@ function invoke(f, articles, dryRun = false, dirty = '') {
   let exit = null;
   try {
     vm.runInNewContext(source, {
-      require(name) { return name === 'child_process' ? { execFileSync(binary, args) { assert.equal(binary, 'git'); calls.push(Array.from(args)); return Buffer.from(args[0] === 'status' ? dirty : args[0] === 'rev-list' ? '0 0' : ''); } } : require(name); },
+      require(name) { return name === 'child_process' ? { execFileSync(binary, args) { assert.equal(binary, 'git'); calls.push(Array.from(args)); return Buffer.from(args[0] === 'status' ? dirty : args[0] === 'rev-list' ? '0 0' : args[0] === 'ls-files' ? (f.untrackedDocs ? '' : args[args.length - 1]) : ''); } } : require(name); },
       __dirname: path.join(f.repo, 'tools'),
       process: { argv: ['node', 'sync.js', manifest, ...(dryRun ? ['--dry-run'] : [])], exit(code) { exit = code; throw new Error('EXIT'); } },
       console: { log() {}, error() {} },
@@ -80,8 +80,10 @@ test('real git: exact commit scope, frozen README, idempotence, rejected push an
   git(['config', 'core.autocrlf', 'false']);
   fs.mkdirSync(path.join(repo, 'tools'));
   fs.writeFileSync(path.join(repo, 'tools', 'sync.js'), source);
-  const before = '# Frozen title\n\n## 📰 最新更新\n\n## Body\nFrozen body\n';
+  const before = '# Frozen title\n\n## 📰 最新更新\n\n- 2026-10-10 [Existing guide](docs/paid-still-free.md)\n\n## Body\nFrozen body\n';
   fs.writeFileSync(path.join(repo, 'README.md'), before);
+  fs.mkdirSync(path.join(repo, 'docs'));
+  fs.writeFileSync(path.join(repo, 'docs', 'paid-still-free.md'), '# Existing guide');
   fs.writeFileSync(path.join(repo, '.gitignore'), 'private.env\n');
   git(['add', '.']);
   git(['commit', '-m', 'initial']);
@@ -91,7 +93,7 @@ test('real git: exact commit scope, frozen README, idempotence, rejected push an
   const input = path.join(root, 'input.md');
   const manifest = path.join(root, 'manifest.json');
   fs.writeFileSync(input, '# Article');
-  const writeManifest = slug => fs.writeFileSync(manifest, JSON.stringify({ date: '2026-10-11', articles: [{ slug, title: 'A', mdPath: input }] }));
+  const writeManifest = slug => fs.writeFileSync(manifest, JSON.stringify({ date: '2026-10-11', articles: [{ slug, title: 'A', mdPath: input, url: `https://chatgpt20x.com/${slug}` }] }));
   const run = (...args) => spawnSync(process.execPath, [path.join(repo, 'tools', 'sync.js'), ...args], { encoding: 'utf8' });
   writeManifest('first');
   const initialHead = git(['rev-parse', 'HEAD']);
@@ -104,7 +106,8 @@ test('real git: exact commit scope, frozen README, idempotence, rejected push an
   const updated = fs.readFileSync(path.join(repo, 'README.md'), 'utf8');
   assert.ok(updated.startsWith('# Frozen title\n\n'));
   assert.ok(updated.endsWith('## Body\nFrozen body\n'));
-  assert.ok(updated.includes('- 2026-10-11 [A](https://gptpro20x.com/blog/first/)'));
+  assert.ok(updated.includes('- 2026-10-11 [A](https://chatgpt20x.com/first)'));
+  assert.ok(updated.includes('- 2026-10-10 [Existing guide](docs/paid-still-free.md)'));
   assert.equal(git(['rev-parse', 'HEAD']), git(['rev-parse', 'HEAD'], remote));
   const head = git(['rev-parse', 'HEAD']);
   assert.equal(run(manifest).status, 0);
@@ -150,4 +153,100 @@ test('non-markdown sources and manual latest-update notes are preserved before a
   assert.equal(fs.existsSync(path.join(f.repo, 'articles')), false);
   assert.equal(fs.readFileSync(path.join(f.repo, 'README.md'), 'utf8'), withNote);
   assert.equal(result.calls.some(a => ['add', 'commit', 'push'].includes(a[0])), false);
+});
+
+test('existing repository docs link survives sync and repeated sync is idempotent', () => {
+  const f = fixture();
+  fs.mkdirSync(path.join(f.repo, 'docs'));
+  fs.writeFileSync(path.join(f.repo, 'docs', 'paid-still-free.md'), '# Existing guide');
+  const entry = '- 2026-10-10 [Existing guide](docs/paid-still-free.md)';
+  fs.writeFileSync(path.join(f.repo, 'README.md'), f.readme.replace('## 📰 最新更新\n\n', `## 📰 最新更新\n\n${entry}\n\n`));
+  const articles = [{ slug: 'first', title: 'A', mdPath: f.input }];
+  assert.equal(invoke(f, articles).exit, null);
+  const updated = fs.readFileSync(path.join(f.repo, 'README.md'), 'utf8');
+  assert.ok(updated.includes(entry));
+  assert.ok(updated.endsWith('## Body\nFrozen body\n'));
+  assert.equal(invoke(f, articles).exit, 0);
+  assert.equal(fs.readFileSync(path.join(f.repo, 'README.md'), 'utf8'), updated);
+});
+
+test('unsafe, missing and non-Markdown relative README targets block before output', () => {
+  for (const target of ['docs/missing.md', 'docs/../README.md', 'docs/%2e%2e/README.md', 'docs/file.env', 'docs/nested/file.md', './docs/file.md', '//example.invalid/a.md', 'javascript:alert(1)']) {
+    const f = fixture();
+    const before = f.readme.replace('## 📰 最新更新\n\n', `## 📰 最新更新\n\n- 2026-10-10 [Existing](${target})\n\n`);
+    fs.writeFileSync(path.join(f.repo, 'README.md'), before);
+    const result = invoke(f, [{ slug: 'first', title: 'A', mdPath: f.input }]);
+    assert.equal(result.exit, 1, target);
+    assert.equal(fs.existsSync(path.join(f.repo, 'articles')), false);
+    assert.equal(fs.readFileSync(path.join(f.repo, 'README.md'), 'utf8'), before);
+    assert.equal(result.calls.some(a => ['add', 'commit', 'push'].includes(a[0])), false);
+  }
+});
+
+test('explicit published URL supports site-specific article paths without changing defaults', () => {
+  for (const url of ['https://gptcz.pro/blog/first', 'https://chatgpt20x.com/first', 'https://gptpro20x.com/blog/first/', 'https://gptpro5x.com/first', 'https://aiczz.com/first']) {
+    const f = fixture();
+    const articles = [{ slug: 'first', title: 'A', mdPath: f.input, url }];
+    assert.equal(invoke(f, articles).exit, null, url);
+    const readme = fs.readFileSync(path.join(f.repo, 'README.md'), 'utf8');
+    assert.ok(readme.includes(`](${url})`));
+    assert.ok(readme.endsWith('## Body\nFrozen body\n'));
+    assert.equal(invoke(f, articles).exit, 0);
+  }
+});
+
+test('unsafe or mismatched article URLs reject the whole batch before any write', () => {
+  for (const url of ['http://gptcz.pro/blog/second', 'https://gptcz.pro.evil.invalid/blog/second', 'https://user:pass@gptcz.pro/blog/second', 'https://gptcz.pro:8443/blog/second', 'https://gptcz.pro/blog/wrong', 'https://gptcz.pro/blog/second?x=1', 'https://gptcz.pro/blog/second#anchor', 'https://gptcz.pro/blog/second?', 'https://gptcz.pro/blog/second#', 'https://gptcz.pro/blog/../blog/second', 'https://gptcz.pro/blog/%73econd', 'javascript:alert(1)', 42]) {
+    const f = fixture();
+    const result = invoke(f, [{ slug: 'first', title: 'A', mdPath: f.input }, { slug: 'second', title: 'B', mdPath: f.input, url }]);
+    assert.equal(result.exit, 1, String(url));
+    assert.equal(fs.existsSync(path.join(f.repo, 'articles')), false);
+    assert.equal(fs.readFileSync(path.join(f.repo, 'README.md'), 'utf8'), f.readme);
+    assert.equal(result.calls.length, 0);
+  }
+});
+
+function docsFixture() {
+  const f = fixture();
+  fs.mkdirSync(path.join(f.repo, 'docs'));
+  fs.writeFileSync(path.join(f.repo, 'README.md'), f.readme.replace('## 📰 最新更新\n\n', '## 📰 最新更新\n\n- 2026-10-10 [Existing](docs/existing.md)\n\n'));
+  return f;
+}
+
+test('docs target directories and existing untracked files reject before output', () => {
+  for (const directory of [false, true]) {
+    const f = docsFixture();
+    const target = path.join(f.repo, 'docs', 'existing.md');
+    if (directory) fs.mkdirSync(target);
+    else { fs.writeFileSync(target, '# Untracked'); f.untrackedDocs = true; }
+    const before = fs.readFileSync(path.join(f.repo, 'README.md'), 'utf8');
+    const result = invoke(f, [{ slug: 'first', title: 'A', mdPath: f.input }]);
+    assert.equal(result.exit, 1);
+    assert.equal(fs.existsSync(path.join(f.repo, 'articles')), false);
+    assert.equal(fs.readFileSync(path.join(f.repo, 'README.md'), 'utf8'), before);
+    assert.equal(result.calls.some(a => ['add', 'commit', 'push'].includes(a[0])), false);
+  }
+});
+
+test('docs symlink escaping the repository rejects before output', t => {
+  const f = docsFixture();
+  const outside = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sync-doc-outside-')), 'outside.md');
+  fs.writeFileSync(outside, '# Outside');
+  try { fs.symlinkSync(outside, path.join(f.repo, 'docs', 'existing.md'), 'file'); }
+  catch (error) { if (['EPERM', 'EACCES', 'ENOTSUP'].includes(error.code)) return t.skip('Environment does not permit file symlinks'); throw error; }
+  const before = fs.readFileSync(path.join(f.repo, 'README.md'), 'utf8');
+  assert.equal(invoke(f, [{ slug: 'first', title: 'A', mdPath: f.input }]).exit, 1);
+  assert.equal(fs.existsSync(path.join(f.repo, 'articles')), false);
+  assert.equal(fs.readFileSync(path.join(f.repo, 'README.md'), 'utf8'), before);
+});
+
+test('repository junction or symlink root keeps legitimate tracked docs usable', t => {
+  const f = docsFixture();
+  fs.writeFileSync(path.join(f.repo, 'docs', 'existing.md'), '# Tracked guide');
+  const alias = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sync-root-alias-')), 'repo');
+  try { fs.symlinkSync(f.repo, alias, process.platform === 'win32' ? 'junction' : 'dir'); }
+  catch (error) { if (['EPERM', 'EACCES', 'ENOTSUP'].includes(error.code)) return t.skip('Environment does not permit directory aliases'); throw error; }
+  f.repo = alias;
+  assert.equal(invoke(f, [{ slug: 'first', title: 'A', mdPath: f.input }]).exit, null);
+  assert.ok(fs.readFileSync(path.join(f.repo, 'README.md'), 'utf8').includes('](docs/existing.md)'));
 });

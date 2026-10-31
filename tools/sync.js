@@ -2,7 +2,7 @@
 /**
  * 每日文章同步脚本
  * 用法: node tools/sync.js <manifest.json>
- * manifest 格式: { "date": "YYYY-MM-DD", "articles": [ { "mdPath": "本地md文件", "slug": "文章slug", "title": "文章标题" } ] }
+ * manifest 格式: { "date": "YYYY-MM-DD", "articles": [ { "mdPath": "本地md文件", "slug": "文章slug", "title": "文章标题", "url": "可选：已发布的自有站文章地址；同篇URL写法保持一致" } ] }
  *
  * 功能:
  *  1. 把每篇 md 副本存入 articles/YYYY-MM-DD-<slug>.md
@@ -12,12 +12,43 @@
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { URL } = require('url');
 
 const SITE = 'https://gptpro20x.com';
 const REPO = path.join(__dirname, '..');
 const README = path.join(REPO, 'README.md');
 const SECTION = '## 📰 最新更新';
 const MAX_ENTRIES = 10;
+
+// Keep the legacy default, but accept exact published paths for the five owned sites.
+function articleUrl(article) {
+  if (article.url === undefined) return `${SITE}/blog/${article.slug}/`;
+  if (typeof article.url !== 'string' || /[?#]/.test(article.url)) fail('Invalid article URL');
+  let url;
+  try { url = new URL(article.url); } catch { fail('Invalid article URL'); }
+  const prefix = {
+    'gptpro20x.com': '/blog/', 'gptcz.pro': '/blog/',
+    'chatgpt20x.com': '/', 'gptpro5x.com': '/', 'aiczz.com': '/',
+  }[url.hostname];
+  if (url.protocol !== 'https:' || !prefix || url.username || url.password || url.port ||
+      url.search || url.hash || url.href !== article.url ||
+      ![`${prefix}${article.slug}`, `${prefix}${article.slug}/`].includes(url.pathname)) {
+    fail('Article URL must be an exact HTTPS article path on an owned site');
+  }
+  return url.href;
+}
+
+function safeDocsLink(target) {
+  if (!/^docs\/[a-z0-9]+(?:-[a-z0-9]+)*\.md$/.test(target)) return false;
+  const file = path.join(REPO, target);
+  try {
+    // Do not admit missing files, directories or symlinks that escape the repository.
+    const docsRoot = path.join(fs.realpathSync(REPO), 'docs');
+    if (!fs.statSync(file).isFile() || path.dirname(fs.realpathSync(file)) !== docsRoot) return false;
+    // An ignored or untracked local file will not exist on GitHub after the push.
+    return run(['ls-files', '--error-unmatch', '--', target]).split('\n').includes(target);
+  } catch { return false; }
+}
 
 function fail(msg) { console.error('[sync] ' + msg); process.exit(1); }
 
@@ -43,6 +74,7 @@ for (const a of articles) {
   if (path.extname(a.mdPath).toLowerCase() !== '.md') fail('Article mdPath must be a .md file');
   try { a.content = fs.readFileSync(a.mdPath); }
   catch { fail('Cannot read article mdPath'); }
+  a.publishedUrl = articleUrl(a);
 }
 const run = args => {
   try { return execFileSync('git', args, { cwd: REPO, stdio: 'pipe' }).toString().trim(); }
@@ -64,8 +96,11 @@ if (readme.split('\n').filter(l => l.trim() === SECTION).length !== 1) fail('Exp
 const previewLines = readme.split('\n');
 const previewStart = previewLines.findIndex(l => l.trim() === SECTION);
 for (let i = previewStart + 1; i < previewLines.length && !/^## /.test(previewLines[i]); i++) {
-  if (previewLines[i].trim() && !/^- \d{4}-\d{2}-\d{2} \[[^\r\n]+\]\(https?:\/\/[^\s)]+\)$/.test(previewLines[i].trim())) {
-    fail('Latest-updates section contains non-entry text; preserve and review it manually');
+  if (previewLines[i].trim()) {
+    const entry = /^- \d{4}-\d{2}-\d{2} \[[^\r\n]+\]\((https?:\/\/[^\s)]+|docs\/[^\s)]+)\)$/.exec(previewLines[i].trim());
+    if (!entry || (entry[1].startsWith('docs/') && !safeDocsLink(entry[1]))) {
+      fail('Latest-updates section contains non-entry text or an unsafe docs link; preserve and review it manually');
+    }
   }
 }
 
@@ -81,7 +116,7 @@ for (const a of articles) {
 }
 
 // 2. 更新 README「最新更新」板块
-const newLines = articles.map(a => `- ${date} [${a.title}](${SITE}/blog/${a.slug}/)`);
+const newLines = articles.map(a => `- ${date} [${a.title}](${a.publishedUrl})`);
 
 {
   const lines = readme.split('\n');
@@ -93,7 +128,7 @@ const newLines = articles.map(a => `- ${date} [${a.title}](${SITE}/blog/${a.slug
     if (/^- \d{4}-\d{2}-\d{2} /.test(lines[end].trim())) old.push(lines[end].trim());
     end++;
   }
-  const urls = articles.map(a => `](${SITE}/blog/${a.slug}/)`);
+  const urls = articles.map(a => `](${a.publishedUrl})`);
   const merged = [...newLines, ...old.filter(l => !urls.some(url => l.includes(url)))].slice(0, MAX_ENTRIES);
   lines.splice(start, end - start, SECTION, '', ...merged, '');
   readme = lines.join('\n');
