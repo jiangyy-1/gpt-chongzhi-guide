@@ -6,6 +6,7 @@
 
 ## 📰 最新更新
 
+- 2026-11-04 [ChatGPT Plus购买提示关联其他账号怎么办？](https://chatgpt20x.com/chatgpt-plus-goumai-guanlian-zhanghao)
 - 2026-11-02 [ChatGPT Go购买：入口与转档时间怎么查](https://gptpro20x.com/blog/chatgpt-go-goumai-rukou/)
 - 2026-10-28 [ChatGPT升级换平台，会重复扣款吗？](https://chatgpt20x.com/chatgpt-shengji-huanpingtai)
 - 2026-10-27 [GPT-6.1 Terra怎么用？Plus入口与升级核对](https://gptcz.pro/blog/gpt-6-1-terra-plus-rukou)
@@ -15,7 +16,6 @@
 - 2026-10-24 [ChatGPT GO 套餐详解：79 元的入门档到底值不值？](https://gptpro20x.com/blog/chatgpt-go-plan/)
 - 2026-10-21 [GPT充值后还是 Free？ChatGPT 会员未显示的账号与账单排查](docs/chatgpt-paid-still-free.md)
 - 2026-10-13 [国内怎么开通 ChatGPT Plus？GPT充值渠道对比与到账核对（2026）](https://gptpro20x.com/blog/guonei-kaitong-chatgpt-plus/)
-- 2026-09-30 [ChatGPT Pro 500 国内怎么充值、代充？$500 套餐值不值、和 Pro 100/200 区别（2026 GPT代充）](https://gptpro20x.com/blog/chatgpt-pro-500/)
 
 ## 🔥 热门指南
 
