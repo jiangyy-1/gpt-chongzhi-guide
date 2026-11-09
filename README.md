@@ -6,6 +6,7 @@
 
 ## 📰 最新更新
 
+- 2026-11-09 [ChatGPT Plus购买前：GIF与参考图核对](https://gptcz.pro/blog/chatgpt-plus-goumai-gif-cankao)
 - 2026-11-06 [GPT-6 Cyber开通：Plus购买能用吗](https://gptpro20x.com/blog/gpt-6-cyber-kaitong/)
 - 2026-11-05 [ChatGPT Pro 500购买前先算用量](https://gptpro5x.com/blog/chatgpt-pro-500-goumai-ultrafast-yongliang)
 - 2026-11-04 [ChatGPT Plus购买提示关联其他账号怎么办？](https://chatgpt20x.com/chatgpt-plus-goumai-guanlian-zhanghao)
