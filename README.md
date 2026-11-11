@@ -6,6 +6,7 @@
 
 ## 📰 最新更新
 
+- 2026-11-12 [GPT代充平台对比：ChatGPT充值价格、到账、退款、发票逐项对照](docs/gpt-daichong-pingtai-duibi.md)
 - 2026-11-09 [ChatGPT Plus购买前：GIF与参考图核对](https://gptcz.pro/blog/chatgpt-plus-goumai-gif-cankao)
 - 2026-11-06 [GPT-6 Cyber开通：Plus购买能用吗](https://gptpro20x.com/blog/gpt-6-cyber-kaitong/)
 - 2026-11-05 [ChatGPT Pro 500购买前先算用量](https://gptpro5x.com/blog/chatgpt-pro-500-goumai-ultrafast-yongliang)
@@ -21,6 +22,7 @@
 
 ## 🔥 热门指南
 
+- [GPT代充平台对比 2026：ChatGPT充值价格、到账、退款、发票逐项对照](docs/gpt-daichong-pingtai-duibi.md)
 - [GPT代充/GPT充值完整指南：支付宝微信开通全流程（2026 亲测）](https://gptpro20x.com/blog/gpt-daichong-quanzhinan/)
 - [GPT充值多少钱：ChatGPT 全档位价格表（实时更新）](https://gptpro20x.com/blog/gpt-chongzhi-duoshaoqian/)
 - [GPTPro充值/GPTPro代充完整教程：Pro 5x/20x 国内开通](https://gptpro20x.com/blog/gptpro-chongzhi/)
@@ -108,6 +110,8 @@ Pro 档（5X / 20X）的开通和 Plus 不同：需要临时凭证授权操作�
 - ✅ **明确的售后承诺**——如"开通失败全额退款"，且写在网站上
 - ✅ **能开发票、支持对公转账**——有真实经营主体，企业采购可报销
 - ❌ **索要身份证、支付密码的一律拉黑**
+
+按这几条把几家平台的价格、到账、退款、发票逐项列了表，见 [GPT代充平台对比](docs/gpt-daichong-pingtai-duibi.md)。
 
 ## 常见问题 FAQ
 
