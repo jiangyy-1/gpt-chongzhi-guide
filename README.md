@@ -6,6 +6,7 @@
 
 ## 📰 最新更新
 
+- 2026-11-12 [ChatGPT充值前：12月11日语音切换核对](https://gptpro5x.com/blog/chatgpt-chongzhi-voice-qiehuan-1211)
 - 2026-11-12 [GPT代充平台对比：ChatGPT充值价格、到账、退款、发票逐项对照](docs/gpt-daichong-pingtai-duibi.md)
 - 2026-11-09 [ChatGPT Plus购买前：GIF与参考图核对](https://gptcz.pro/blog/chatgpt-plus-goumai-gif-cankao)
 - 2026-11-06 [GPT-6 Cyber开通：Plus购买能用吗](https://gptpro20x.com/blog/gpt-6-cyber-kaitong/)
