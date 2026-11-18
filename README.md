@@ -6,6 +6,7 @@
 
 ## 📰 最新更新
 
+- 2026-11-18 [ChatGPT Plus购买：GPT-6.2能用吗？](https://chatgpt20x.com/gpt-6-2-plus-goumai-work)
 - 2026-11-17 [Claude会员购买：Meetings该选哪种套餐？](https://gptcz.pro/blog/claude-huiyuan-goumai-meetings-zige)
 - 2026-11-16 [Gemini会员购买：Hydrogen要付费吗](https://gptpro20x.com/blog/gemini-hydrogen-huiyuan-goumai/)
 - 2026-11-14 [ChatGPT Pro充值能用Wallet吗？资格核对](https://gptpro5x.com/blog/chatgpt-pro-chongzhi-wallet-zige)
