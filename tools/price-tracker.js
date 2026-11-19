@@ -19,6 +19,7 @@ const SOURCES = [
   { name: 'aichongzhi.org', url: 'https://aichongzhi.org/' },
   { name: 'getgpt.pro', url: 'https://getgpt.pro/plus-price' },
   { name: 'payforchat.com', url: 'https://www.payforchat.com/' },
+  { name: 'payforgpt.com', url: 'https://payforgpt.com/' },
 ];
 
 // 档位 → 在页面文本里的识别模式（按出现顺序取第一个紧随其后的人民币价格）

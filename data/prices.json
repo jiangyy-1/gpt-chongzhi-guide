@@ -1,12 +1,12 @@
 {
-  "collectedAt": "2026-10-15",
+  "collectedAt": "2026-11-19",
   "platforms": [
     {
       "name": "gptpro20x.com",
       "source": "https://gptpro20x.com/chatgpt/",
       "go": 79,
       "plus": 168,
-      "pro5x": 818,
+      "pro5x": null,
       "pro20x": 1480
     },
     {
@@ -14,7 +14,7 @@
       "source": "https://gptpro5x.com/",
       "go": null,
       "plus": 168,
-      "pro5x": 818,
+      "pro5x": null,
       "pro20x": 1480
     },
     {
@@ -37,7 +37,7 @@
       "name": "getgpt.pro",
       "source": "https://getgpt.pro/plus-price",
       "go": null,
-      "plus": null,
+      "plus": 179,
       "pro5x": null,
       "pro20x": null
     },
@@ -46,8 +46,16 @@
       "source": "https://www.payforchat.com/",
       "go": null,
       "plus": 189,
-      "pro5x": 899,
+      "pro5x": 889,
       "pro20x": 1620
+    },
+    {
+      "name": "payforgpt.com",
+      "source": "https://payforgpt.com/",
+      "go": null,
+      "plus": 160,
+      "pro5x": null,
+      "pro20x": null
     }
   ]
 }
