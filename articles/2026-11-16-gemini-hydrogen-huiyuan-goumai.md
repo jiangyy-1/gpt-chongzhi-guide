@@ -7,7 +7,7 @@
 
 *原创 AI 示意图，并非官方界面。*
 
-Gemini会员购买先看你是否需要指定模型或使用Tasks。符合资格的免费用户可通过自动选择用到Hydrogen，但不保证每次回答都用它；需要在聊天中手选Hydrogen，可核对Google AI Plus；需要Tasks，再核对Pro或Ultra及功能资格。已有套餐满足要求，就无需为新模型重复付费。[官方模型说明](https://support.google.com/gemini/answer/18648722?hl=en)
+Gemini会员购买先看你是否需要指定模型或使用Tasks。符合资格的免费用户可通过自动选择用到Hydrogen，但不保证每次回答都用它；需要在聊天中手选Hydrogen，可核对Google AI Plus；需要Tasks，先按地区核对免费使用或Pro、Ultra要求，再确认功能资格。已有套餐满足要求，就无需为新模型重复付费。[官方模型说明](https://support.google.com/gemini/answer/18648722?hl=en)
 
 编辑：GPTPro20x编辑部。首次发布与事实核验：2026年11月16日。本文聚焦Hydrogen发布后的升级判断；基础操作见[Gemini使用指南](https://gptpro20x.com/blog/gemini-guide/)，订购核对见[Gemini充值指南](https://gptpro20x.com/blog/gemini-chongzhi/)。
 
@@ -32,7 +32,7 @@ Google于2026年11月12日发布Hydrogen，公告于11月13日更新。按公告
 
 个人套餐权益不能直接套用到工作或学校账号。Google网页可用地区页目前将中国大陆标为仅Workspace；支持中文也不代表个人账号在所有地区都能使用。[账号条件](https://support.google.com/gemini/answer/13278668)与[地区列表](https://support.google.com/gemini/answer/13575153?hl=en)需分别检查。
 
-Tasks还要求年满18岁、个人账号、Pro或Ultra及开启Keep Activity（活动记录）；当前不在欧洲经济区、尼日利亚、瑞士和英国开放。购买套餐不能替代这些条件。通过第三方代付也不会改变账号、地区和年龄等资格；资格不符时，付款后仍可能用不到对应功能。[Tasks要求](https://support.google.com/gemini/answer/17094507)
+按2026年11月20日核验的官方要求，Tasks需年满18岁、使用个人Google账号并开启History。澳大利亚、加拿大、印度、日本、韩国和美国无需Google AI订阅（免费权限逐步推出，以账号实际显示为准）；在Gemini应用支持的其他地区（欧洲经济区、尼日利亚、瑞士和英国除外），须订阅Google AI Pro或Ultra。购买套餐不能替代这些条件。通过第三方代付也不会改变账号、地区和年龄等资格；资格不符时，付款后仍可能用不到对应功能。[Tasks要求](https://support.google.com/gemini/answer/17094507)
 
 确认资格后，可从Gemini设置查看可选升级项（以该账号所在地区实际显示为准），并在结算前核对价格、周期和续费；已有套餐先查权益。[官方订阅说明](https://support.google.com/gemini/answer/14517446)
 
@@ -44,7 +44,7 @@ Tasks还要求年满18岁、个人账号、Pro或Ultra及开启Keep Activity（�
 
 ### 已经有Plus，还要买Pro吗？
 
-如果只是聊天中选择Hydrogen，先查原权益；只有确需Tasks等原套餐不覆盖的功能，才进一步比较升级方案。
+如果只是聊天中选择Hydrogen，先查原权益；需要Tasks时，先核对所在地区是否可免费使用，以及账号是否符合资格，再判断是否需要Pro或Ultra。
 
 ### 也在比较ChatGPT充值，怎么避免买错？
 
