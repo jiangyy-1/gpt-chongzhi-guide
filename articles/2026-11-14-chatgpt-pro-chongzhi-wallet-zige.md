@@ -9,7 +9,7 @@
 
 ChatGPT Pro（GPTPro）充值后，Wallet不会自动开放。Wallet是让dot向商家购货的支付功能；dot是需先单独设置的ChatGPT代理，目前每笔购买都须你审阅并批准。截至2026年11月14日，官方正向符合条件的美国Pro用户逐步开放，购买Pro不保证获得入口。
 
-发布与核验：2026-11-14｜编辑：GPTPro 编辑部
+首次发布：2026-11-14｜修改与核验：2026-11-21｜编辑：GPTPro 编辑部
 
 ## Wallet、会员扣费和余额，先分清用途
 
@@ -27,7 +27,7 @@ OpenAI在[11月13日公告](https://openai.com/index/introducing-chatgpt-wallet/
 
 依据上述条款，Wallet要求年满18岁、具备订约能力，居住在美国且在美国使用，并有美国账单地址；账号须符合要求，卡须由美国金融机构发行，且本人拥有或获合法授权使用。符合基本条件仍不代表所有设备、商家和交易都能受理。
 
-该帮助另列明：需合资格信用卡，暂不支持借记卡及用户添加虚拟卡；Chase卡要求主卡持有人。Wallet用于dot对话，当前不用于Chat、Work或独立Codex对话；批准购买还需要受支持设备完成生物识别。
+按2026年11月21日核对的官方帮助，合资格信用卡及部分美国发行的借记卡可用，但Chase借记卡不支持；发布初期不能添加虚拟卡，合资格Chase信用卡须为主卡持有人。Wallet用于dot对话，当前不用于Chat、Work或独立Codex对话；批准购买还需要受支持设备完成生物识别。
 
 本文建议先判断这些条件，再决定是否为现有Pro用途续费。若只需要了解套餐，可分别查看[GPTPro代充说明](https://gptpro5x.com/gptpro-daichong)与[Pro用量选购说明](https://gptpro5x.com/blog/chatgpt-pro-500-goumai-ultrafast-yongliang)，不要把Wallet入口当作订阅交付承诺。
 
