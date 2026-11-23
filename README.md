@@ -2,31 +2,7 @@
 
 > **GPT充值 / GPT代充** 国内怎么弄？ChatGPT Plus、Pro 官网只认境外卡，支付宝微信付不了，这份手册讲清国内充值的四种付款路径、真实成本、Pro 5X 与 20X 怎么选、代充平台怎么挑。另附 Google Gemini（AI Pro / Ultra）、Grok（SuperGrok / Heavy）、Claude（Pro / Max）的开通方式。
 >
-> 📌 最近核对：2026-10-18。持续更新中，欢迎 Star / Watch 获取更新。
-
-## 📰 最新更新
-
-- 2026-11-23 [ChatGPT Plus购买：Space协作要几份会员](https://gptpro20x.com/blog/chatgpt-plus-goumai-space-xiezuo/)
-- 2026-11-20 [Gemini会员购买：Neon要升级Ultra吗](https://gptpro20x.com/blog/gemini-neon-huiyuan-goumai/)
-- 2026-11-18 [ChatGPT Plus购买：GPT-6.2能用吗？](https://chatgpt20x.com/gpt-6-2-plus-goumai-work)
-- 2026-11-17 [Claude会员购买：Meetings该选哪种套餐？](https://gptcz.pro/blog/claude-huiyuan-goumai-meetings-zige)
-- 2026-11-16 [Gemini会员购买：Hydrogen要付费吗](https://gptpro20x.com/blog/gemini-hydrogen-huiyuan-goumai/)
-- 2026-11-14 [ChatGPT Pro充值能用Wallet吗？资格核对](https://gptpro5x.com/blog/chatgpt-pro-chongzhi-wallet-zige)
-- 2026-11-13 [ChatGPT会员购买：Business Hub要升级吗](https://gptpro20x.com/blog/chatgpt-huiyuan-goumai-business-hub/)
-- 2026-11-12 [ChatGPT充值前：12月11日语音切换核对](https://gptpro5x.com/blog/chatgpt-chongzhi-voice-qiehuan-1211)
-- 2026-11-12 [GPT代充平台对比：ChatGPT充值价格、到账、退款、发票逐项对照](docs/gpt-daichong-pingtai-duibi.md)
-- 2026-11-09 [ChatGPT Plus购买前：GIF与参考图核对](https://gptcz.pro/blog/chatgpt-plus-goumai-gif-cankao)
-- 2026-11-06 [GPT-6 Cyber开通：Plus购买能用吗](https://gptpro20x.com/blog/gpt-6-cyber-kaitong/)
-- 2026-11-05 [ChatGPT Pro 500购买前先算用量](https://gptpro5x.com/blog/chatgpt-pro-500-goumai-ultrafast-yongliang)
-- 2026-11-04 [ChatGPT Plus购买提示关联其他账号怎么办？](https://chatgpt20x.com/chatgpt-plus-goumai-guanlian-zhanghao)
-- 2026-11-02 [ChatGPT Go购买：入口与转档时间怎么查](https://gptpro20x.com/blog/chatgpt-go-goumai-rukou/)
-- 2026-10-28 [ChatGPT升级换平台，会重复扣款吗？](https://chatgpt20x.com/chatgpt-shengji-huanpingtai)
-- 2026-10-27 [GPT-6.1 Terra怎么用？Plus入口与升级核对](https://gptcz.pro/blog/gpt-6-1-terra-plus-rukou)
-- 2026-10-26 [ChatGPT会员购买：iPhone升级卡住怎么办](https://gptpro20x.com/blog/chatgpt-huiyuan-goumai-qudao/)
-- 2026-10-24 [ChatGPT Plus 续费失败掉档怎么办？三种续费方式与自查步骤（2026）](https://gptpro20x.com/blog/chatgpt-xufei-diaodang/)
-- 2026-10-24 [GPT充值月付还是年付？差价、切换时机与掉档风险（2026 实测）](https://gptpro20x.com/blog/gpt-yuefu-nianfu/)
-- 2026-10-24 [ChatGPT GO 套餐详解：79 元的入门档到底值不值？](https://gptpro20x.com/blog/chatgpt-go-plan/)
-- 2026-10-21 [GPT充值后还是 Free？ChatGPT 会员未显示的账号与账单排查](docs/chatgpt-paid-still-free.md)
+> 📌 最近核对：2026-11-23。持续更新中，欢迎 Star / Watch 获取更新。
 
 ## 🔥 热门指南
 
@@ -158,3 +134,13 @@ Pro 档（5X / 20X）的开通和 Plus 不同：需要临时凭证授权操作�
 
 📝 本仓库内容持续更新，如有错漏欢迎提 Issue。
 🔗 更多攻略：[gptpro20x.com 攻略中心](https://gptpro20x.com/blog/) · [gptpro5x.com 教程中心](https://gptpro5x.com/tutorials)
+
+## 📰 最新更新
+
+- 2026-11-23 [ChatGPT Plus购买：Space协作要几份会员](https://gptpro20x.com/blog/chatgpt-plus-goumai-space-xiezuo/)
+- 2026-11-20 [Gemini会员购买：Neon要升级Ultra吗](https://gptpro20x.com/blog/gemini-neon-huiyuan-goumai/)
+- 2026-11-18 [ChatGPT Plus购买：GPT-6.2能用吗？](https://chatgpt20x.com/gpt-6-2-plus-goumai-work)
+- 2026-11-17 [Claude会员购买：Meetings该选哪种套餐？](https://gptcz.pro/blog/claude-huiyuan-goumai-meetings-zige)
+- 2026-11-16 [Gemini会员购买：Hydrogen要付费吗](https://gptpro20x.com/blog/gemini-hydrogen-huiyuan-goumai/)
+
+> 更早的更新条目见 [CHANGELOG.md](CHANGELOG.md)。

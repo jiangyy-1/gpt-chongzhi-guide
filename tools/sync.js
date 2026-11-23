@@ -6,8 +6,13 @@
  *
  * 功能:
  *  1. 把每篇 md 副本存入 articles/YYYY-MM-DD-<slug>.md
- *  2. README.md「最新更新」板块顶部插入当天记录(链接指向独立站), 最多保留 10 条
+ *  2. README.md「最新更新」板块顶部插入当天记录(链接指向独立站), 最多保留 5 条
+ *  2b. 超出 5 条的旧条目归档到 CHANGELOG.md(不丢弃)
  *  3. git add / commit ("Auto-update: YYYY-MM-DD") / push
+ *
+ * 注意: README「最新更新」板块位于文件末尾, 核心词正文与「热门指南」在前。
+ * 不要把该板块移回顶部 —— 2026-11-23 排查显示顶部堆积自有站链接与主仓
+ * 商业词排名下滑同期发生, 证据见 E:/新的网站/.seo-runs/2026-11-23/。
  */
 const fs = require('fs');
 const path = require('path');
@@ -18,7 +23,11 @@ const SITE = 'https://gptpro20x.com';
 const REPO = path.join(__dirname, '..');
 const README = path.join(REPO, 'README.md');
 const SECTION = '## 📰 最新更新';
-const MAX_ENTRIES = 10;
+const CHANGELOG = path.join(REPO, 'CHANGELOG.md');
+const NOTE = '> 更早的更新条目见 [CHANGELOG.md](CHANGELOG.md)。';
+// 2026-11-23: 由 10 收紧到 5。README 顶部堆积自有站链接会稀释正文核心词，
+// 溢出条目不再丢弃，改为归档到 CHANGELOG.md。
+const MAX_ENTRIES = 5;
 
 // Keep the legacy default, but accept exact published paths for the five owned sites.
 function articleUrl(article) {
@@ -97,6 +106,7 @@ const previewLines = readme.split('\n');
 const previewStart = previewLines.findIndex(l => l.trim() === SECTION);
 for (let i = previewStart + 1; i < previewLines.length && !/^## /.test(previewLines[i]); i++) {
   if (previewLines[i].trim()) {
+    if (previewLines[i].trim() === NOTE) continue;
     const entry = /^- \d{4}-\d{2}-\d{2} \[[^\r\n]+\]\((https?:\/\/[^\s)]+|docs\/[^\s)]+)\)$/.exec(previewLines[i].trim());
     if (!entry || (entry[1].startsWith('docs/') && !safeDocsLink(entry[1]))) {
       fail('Latest-updates section contains non-entry text or an unsafe docs link; preserve and review it manually');
@@ -117,6 +127,7 @@ for (const a of articles) {
 
 // 2. 更新 README「最新更新」板块
 const newLines = articles.map(a => `- ${date} [${a.title}](${a.publishedUrl})`);
+let overflow = [];
 
 {
   const lines = readme.split('\n');
@@ -129,9 +140,32 @@ const newLines = articles.map(a => `- ${date} [${a.title}](${a.publishedUrl})`);
     end++;
   }
   const urls = articles.map(a => `](${a.publishedUrl})`);
-  const merged = [...newLines, ...old.filter(l => !urls.some(url => l.includes(url)))].slice(0, MAX_ENTRIES);
-  lines.splice(start, end - start, SECTION, '', ...merged, '');
+  const all = [...newLines, ...old.filter(l => !urls.some(url => l.includes(url)))];
+  const merged = all.slice(0, MAX_ENTRIES);
+  overflow = all.slice(MAX_ENTRIES);
+  lines.splice(start, end - start, SECTION, '', ...merged, '', NOTE, '');
   readme = lines.join('\n');
+}
+
+// 2b. 溢出条目归档到 CHANGELOG.md，不丢弃
+if (overflow.length) {
+  let log;
+  try { log = fs.readFileSync(CHANGELOG, 'utf8'); }
+  catch { fail('Cannot read CHANGELOG.md; archive target must exist before syncing'); }
+  const logLines = log.split('\n');
+  const firstEntry = logLines.findIndex(l => /^- \d{4}-\d{2}-\d{2} /.test(l.trim()));
+  if (firstEntry === -1) fail('CHANGELOG.md has no existing entry anchor; inspect it manually');
+  const already = new Set(logLines.map(l => l.trim()));
+  const add = overflow.filter(l => !already.has(l.trim()));
+  if (add.length) {
+    logLines.splice(firstEntry, 0, ...add);
+    const next = logLines.join('\n');
+    if (next !== log) {
+      changed.push('CHANGELOG.md');
+      if (!dryRun) fs.writeFileSync(CHANGELOG, next);
+      console.log('[sync] CHANGELOG.md 已归档 ' + add.length + ' 条溢出条目');
+    }
+  }
 }
 if (readme !== originalReadme) {
   changed.push('README.md');
