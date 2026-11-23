@@ -46,10 +46,10 @@
 
 ## GPTPro 代充 / GPTPro 充值
 
-Pro 档（5X / 20X）的开通和 Plus 不同：需要临时凭证授权操作，档位怎么选、哪一步安全、哪一步有坑，单独整理了专页：
+Pro 档（5X / 20X）的开通和 Plus 不同：除账号邮箱外还涉及一次性的账号授权步骤，档位怎么选、哪一步安全、哪一步有坑，单独整理了专页：
 
 - [GPTPro充值](https://gptpro5x.com/) —— Pro 5X/20X 实时人民币价格与下单
-- [GPTPro代充完整指南](https://gptpro5x.com/gptpro-daichong) —— 档位对比、四步流程、Token 授权安全边界
+- [GPTPro代充完整指南](https://gptpro5x.com/gptpro-daichong) —— 档位对比、四步流程、账号授权的权限边界与撤销方法
 - [GPTPro代充避坑教程](https://gptpro20x.com/blog/gptpro-chongzhi/) —— 平台怎么筛、验证到账、售后细节
 
 一句话结论：Pro 5X 和 20X 功能完全一样只差额度倍数，从 Plus 升上来先充 5X，撞顶再换 20X。
