@@ -6,6 +6,7 @@
 
 ## 📰 最新更新
 
+- 2026-11-23 [ChatGPT Plus购买：Space协作要几份会员](https://gptpro20x.com/blog/chatgpt-plus-goumai-space-xiezuo/)
 - 2026-11-20 [Gemini会员购买：Neon要升级Ultra吗](https://gptpro20x.com/blog/gemini-neon-huiyuan-goumai/)
 - 2026-11-18 [ChatGPT Plus购买：GPT-6.2能用吗？](https://chatgpt20x.com/gpt-6-2-plus-goumai-work)
 - 2026-11-17 [Claude会员购买：Meetings该选哪种套餐？](https://gptcz.pro/blog/claude-huiyuan-goumai-meetings-zige)
