@@ -3,6 +3,7 @@
 主仓库 README 的「最新更新」板块只保留最近 5 条，更早的条目归档在此。
 正文指南入口见 [README](README.md) 的「热门指南」与目录。
 
+- 2026-11-16 [Gemini会员购买：Hydrogen要付费吗](https://gptpro20x.com/blog/gemini-hydrogen-huiyuan-goumai/)
 - 2026-11-14 [ChatGPT Pro充值能用Wallet吗？资格核对](https://gptpro5x.com/blog/chatgpt-pro-chongzhi-wallet-zige)
 - 2026-11-13 [ChatGPT会员购买：Business Hub要升级吗](https://gptpro20x.com/blog/chatgpt-huiyuan-goumai-business-hub/)
 - 2026-11-12 [ChatGPT充值前：12月11日语音切换核对](https://gptpro5x.com/blog/chatgpt-chongzhi-voice-qiehuan-1211)

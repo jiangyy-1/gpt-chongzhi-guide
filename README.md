@@ -223,10 +223,10 @@ Pro 档（5X / 20X）的开通和 Plus 不同：除账号邮箱外还涉及一�
 
 ## 📰 最新更新
 
+- 2026-11-24 [Claude会员购买：插件入口免费就够吗？](https://gptcz.pro/blog/claude-huiyuan-goumai-plugins-rukou)
 - 2026-11-23 [ChatGPT Plus购买：Space协作要几份会员](https://gptpro20x.com/blog/chatgpt-plus-goumai-space-xiezuo/)
 - 2026-11-20 [Gemini会员购买：Neon要升级Ultra吗](https://gptpro20x.com/blog/gemini-neon-huiyuan-goumai/)
 - 2026-11-18 [ChatGPT Plus购买：GPT-6.2能用吗？](https://chatgpt20x.com/gpt-6-2-plus-goumai-work)
 - 2026-11-17 [Claude会员购买：Meetings该选哪种套餐？](https://gptcz.pro/blog/claude-huiyuan-goumai-meetings-zige)
-- 2026-11-16 [Gemini会员购买：Hydrogen要付费吗](https://gptpro20x.com/blog/gemini-hydrogen-huiyuan-goumai/)
 
 > 更早的更新条目见 [CHANGELOG.md](CHANGELOG.md)。
