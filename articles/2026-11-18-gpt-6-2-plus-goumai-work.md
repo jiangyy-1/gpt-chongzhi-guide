@@ -7,7 +7,9 @@
 
 *原创AI示意图，非官方产品界面。*
 
-**ChatGPT Plus购买后可以用GPT-6.2。**截至2026年11月18日，Plus支持在ChatGPT Work和Codex使用GPT-6.2 Astra与Sol；在ChatGPT中应打开Work，不要把普通Chat的模型列表作为唯一判断依据。Plus的模型访问资格也不包含Ultrafast。购买前先确认你需要的入口和速度档，再决定套餐。[官方发布说明](https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol)
+**ChatGPT Plus购买后可以用GPT-6.2。**截至2026年11月25日，Plus支持在ChatGPT Work和Codex使用GPT-6.2 Astra与Sol。
+
+11月23日起，面向Plus、Pro、Business和Enterprise的GPT-6.2聊天版也开始逐步推出，基于针对日常对话调整的Sol版本，Enterprise还取决于管理员设置。这不改变Work与Codex所用模型；不要把普通Chat的模型列表作为订阅是否到账的唯一判断依据。Plus的模型访问资格也不包含Ultrafast。购买前先确认你需要的入口和速度档，再决定套餐。[官方发布说明](https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol) · [11月23日聊天版发布说明](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
 
 ## Astra和Sol，按任务选择
 
@@ -37,7 +39,7 @@
 ## 付款前，填完这张需求清单
 
 1. 目标任务：日常写作、代码修改，还是复杂资料分析？把最常做的一项写清。
-2. 使用入口：准备在Work还是Codex完成？已有会员先检查对应入口。
+2. 使用入口：准备在Chat、Work还是Codex完成？已有会员先检查对应入口。
 3. 速度要求：Standard能否满足？确实需要Ultrafast，再核对表中方案与模型。
 4. 账号和原订阅：核对当前方案、购买渠道、续订状态，避免因为没找到模型重复付款。
 5. 订单验收：记录所购方案、服务周期、最终报价和售后范围；模型资格以官方规则为准。
@@ -46,13 +48,13 @@
 
 比较GPT充值或GPT代充服务时，也可以用这五项逐一问清。本站Plus服务报价由商品系统实时显示：**以原文当前商品页实时显示为准**，这是本站服务价，不是为GPT-6.2单独收取的模型费用；最终以商品页及结算明细为准。基础步骤见[GPT充值教程](https://chatgpt20x.com/gpt-chongzhi)，商品条件见[ChatGPT Plus购买方案](https://chatgpt20x.com/chatgpt-plus)；已有订阅准备更换购买渠道，先看[换平台扣费核对](https://chatgpt20x.com/chatgpt-shengji-huanpingtai)。
 
-ChatGPT充值、ChatGPT代充、ChatGPT 代充值等服务名称，本身不会改变官方模型资格或用量限制。若订单显示的方案与约定不符，按[售后说明](https://chatgpt20x.com/shouhou)核对；若方案正确而模型入口未找到，先检查Work或Codex、登录账号及组织权限。
+ChatGPT充值、ChatGPT代充、ChatGPT 代充值等服务名称，本身不会改变官方模型资格或用量限制。若订单显示的方案与约定不符，按[售后说明](https://chatgpt20x.com/shouhou)核对；若方案正确而模型入口未找到，先核对登录账号、所用的Chat或Work/Codex入口、逐步开放状态及组织权限。
 
 ## 常见问题
 
 ### Plus已到账，普通Chat找不到GPT-6.2，需要再买一次吗？
 
-先核对登录账号与套餐，再打开Work或相应Codex客户端。普通Chat的模型列表不能单独证明充值失败；有组织账号时还需检查管理员的访问权限。不应只因入口不同就重复付款。
+先核对登录账号与套餐；GPT-6.2聊天版自11月23日起逐步推出，没看到时先检查开放状态；在Chat中，GPT-6.2随推出对应Instant与Thinking档，具体可用强度按套餐而定。 [ChatGPT模型说明](https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt)要选择GPT-6.2 Astra或Sol，可打开Work或相应Codex客户端；组织账号还需检查管理员权限。普通Chat的模型列表不能单独证明充值失败。不应只因入口不同就重复付款。
 
 ### Pro 200能给GPT-6.2 Astra开Ultrafast吗？
 
@@ -64,4 +66,4 @@ ChatGPT充值、ChatGPT代充、ChatGPT 代充值等服务名称，本身不会�
 
 ## 编辑与来源说明
 
-编辑责任：ChatGPT20x编辑部。首次发布与官方资料核验：2026年11月18日。本文依据官方公开资料整理，核对卡与任务建议为编辑归纳，未宣称完成账号、实购或速度测试。封面为原创AI示意图，非官方产品界面。
+编辑责任：ChatGPT20x编辑部。首次发布：2026年11月18日；入口事实修改与核验：2026年11月25日。本文依据官方公开资料整理，核对卡与任务建议为编辑归纳，未宣称完成账号、实购或速度测试。封面为原创AI示意图，非官方产品界面。
