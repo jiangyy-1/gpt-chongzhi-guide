@@ -2,16 +2,17 @@
 
 > **GPT充值 / GPT代充** 国内怎么弄？ChatGPT Plus、Pro 官网只认境外卡，支付宝微信付不了，这份手册讲清国内充值的四种付款路径、真实成本、Pro 5X 与 20X 怎么选、代充平台怎么挑。另附 Google Gemini（AI Pro / Ultra）、Grok（SuperGrok / Heavy）、Claude（Pro / Max）的开通方式。
 >
-> 📌 最近核对：2026-11-23。持续更新中，欢迎 Star / Watch 获取更新。
+> 📌 最近核对：2026-11-26。持续更新中，欢迎 Star / Watch 获取更新。
 
 ## 🔥 热门指南
 
-- [GPT代充平台对比 2026：ChatGPT充值价格、到账、退款、发票逐项对照](docs/gpt-daichong-pingtai-duibi.md)
+- **[GPT代充 / GPT充值平台对比 2026：10 个站点标价对照 + 官方 Pro 100/200/500 档位核对](https://jiangyy-1.github.io/gpt-daichong-pingtai-duibi/)** —— 2026-11-26 采集，含各家把同一档位叫成不同名字的对照表
+- [GPT代充平台对比（仓库内旧版，2026-11-12 采集）](docs/gpt-daichong-pingtai-duibi.md)
 - [GPT代充/GPT充值完整指南：支付宝微信开通全流程（2026 亲测）](https://gptpro20x.com/blog/gpt-daichong-quanzhinan/)
 - [GPT充值多少钱：ChatGPT 全档位价格表（实时更新）](https://gptpro20x.com/blog/gpt-chongzhi-duoshaoqian/)
 - [GPTPro充值/GPTPro代充完整教程：Pro 5x/20x 国内开通](https://gptpro20x.com/blog/gptpro-chongzhi/)
 - [GPTPro代充指南：Pro 5X/20X 档位选择与避坑](https://gptpro5x.com/gptpro-daichong)
-- [GPTPro20x代充 / GPTPro20x充值：Pro 20X 暂停新订阅期间怎么开通（2026-09 通知）](https://gptpro20x.com/blog/chatgpt-pro-20x-zanting/)
+- [GPTPro20x代充 / GPTPro20x充值：Pro 20X 暂停新订阅期间怎么开通（2026-09 通知，**$200 档现已重新开放新订阅**）](https://gptpro20x.com/blog/chatgpt-pro-20x-zanting/)
 - [ChatGPT 各档位额度对照表：免费/Plus/Pro 能用多少](https://gptpro20x.com/blog/gpt-edu-duibi/)
 - [GPT充值价格总览（GO/Plus/Pro 实时人民币价）](https://gptpro20x.com/chatgpt/)
 
